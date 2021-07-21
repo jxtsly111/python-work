@@ -1,0 +1,38 @@
+a=[34,5,12,10]
+for index in range(len(a)):
+        print(index, a[index])
+#     pass
+# x=range(3)
+# print(x)
+
+import array as arr
+x= arr.array('i',[2,4,5,64,34])
+# print(x[0])
+# print(x.pop(3))
+# print(x[3])
+# x= arr.array('i',["2","4","5",])
+# # print(x)
+# x.append(19)
+# print(x)
+x.insert(2,23)
+# print(x)
+x.count(23)
+print(x.count(23))
+# x.remove(4)
+# print(x)
+# x.reverse()
+# print(x)
+# val=[434,'single',54,43.3, True]
+# print(val)
+# val.append(19)
+# print(val)
+# val.insert(2,54)
+# print(val)
+# val.count(434)
+# print(val)
+# val.remove(54)
+# print(val)
+# val.reverse()
+# print(val)
+# val.clear()
+# print(val)
